@@ -71,6 +71,28 @@ The application follows Clean Architecture principles to ensure a strict separat
 * Android Studio / Xcode
 * Android SDK 34 (Required for modern plugin compatibility)
 
+
+get token
+Getting Hugging Face API Token
+
+This project uses Hugging Face Inference APIs.
+You must create a Hugging Face access token to run the app.
+
+Step 1: Create Hugging Face account
+https://huggingface.co/join
+
+Step 2: Generate access token
+
+Go to https://huggingface.co/settings/tokens
+
+Click on "New token"
+
+Select permission: Read
+
+Create token
+
+Copy the token (it starts with hf_)
+
 ### Run Instructions
 1. Clone the repository to your local machine.
 2. Run "flutter pub get" in the terminal to install all dependencies.
